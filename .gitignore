@@ -1,0 +1,11 @@
+__pycache__
+*.log
+db/*
+data/output/*
+data/pdf/*
+
+.chainlit
+chainlit.md
+
+.env
+.files/*

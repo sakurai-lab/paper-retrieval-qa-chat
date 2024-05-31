@@ -1,0 +1,23 @@
+version: '3.3'
+services:
+  prqa-local:
+    extra_hosts:
+      - host.docker.internal:host-gateway
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: prqa-local
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - capabilities:
+                - gpu
+              driver: nvidia
+              count: 2
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/home
+    stdin_open: true
+    tty: true
