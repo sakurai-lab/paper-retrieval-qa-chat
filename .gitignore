@@ -6,3 +6,6 @@ chainlit.md
 
 .env
 .files/*
+
+*.mmd
+*.pdf
