@@ -3,10 +3,12 @@
 # Paper Retrieval QA Chat
 
 </div>
+created by nakasone taro
 
-論文に関する問い合わせ応答（要約・質問）を可能にするチャット形式のWebアプリ
 
+  
 ## Demo
+論文に関する問い合わせ応答（要約・質問）を可能にするチャット形式のWebアプリ  
 
 ![alt text](img/demo.gif)
 
